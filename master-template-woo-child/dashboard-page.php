@@ -30,7 +30,7 @@ $user_name= $user_data->display_name;
     <article class="col-12 col-md-9 rgc-dashboard-content">
         <div class="container">
             <section class="p-5 text-center" id="app">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-colores.png" alt="" class="img-fluid">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-real-member.png" alt="" class="img-fluid">
                 <h2 class="my-2">Bienvenid@ <?php echo $user_name; ?></h2>
                 <hr class="my-5">
                 <?php the_field('mensajes_para_afiliados') ?>

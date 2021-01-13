@@ -4,7 +4,7 @@ console.log("Carga login")
 
 jQuery(function ($) {
     $('.login').css('background-image', `url(${vars_inline.varHome}/wp-content/themes/master-template-woo-child/assets/img/bg-login.png)`);
-    $('#loginform, #lostpasswordform').prepend(`<img src='${vars_inline.varHome}/wp-content/themes/master-template-woo-child/assets/img/logo-royal-color.png' style='display: block; margin: auto'>`);
+    $('#loginform, #lostpasswordform').prepend(`<img src='${vars_inline.varHome}/wp-content/themes/master-template-woo-child/assets/img/logo-real-member.png' style='display: block; margin: auto; margin-bottom: 1em;'>`);
     $('#loginform').addClass('shadow')
 
     $('#login h1').html('<span class="rgc-login-title">INICIAR SESIÓN</span>')

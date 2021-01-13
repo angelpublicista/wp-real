@@ -3,16 +3,16 @@ body, html {
 }
 
 .bg-gradient-primary {
-  background: #fbbb01;
-  background: linear-gradient(270deg, #fbbb01 0%, #e0831f 100%);
+  background: #c39635;
+  background: linear-gradient(90deg, #c39635 0%, #ecac23 100%);
 }
 
 .text-color-primary {
-  color: #010077;
+  color: #C39635;
 }
 
 .text-color-secondary {
-  color: #E0831F;
+  color: #082F75;
 }
 
 .padding-section {
@@ -21,7 +21,7 @@ body, html {
 
 .rgc-box-title__divider {
   width: 50px;
-  border: 2px solid #E0831F;
+  border: 2px solid #082F75;
   border-radius: 50px;
 }
 
@@ -42,8 +42,8 @@ body, html {
   border-radius: 50px !important;
 }
 .button-master.principal-button {
-  background: #e0831f;
-  background: linear-gradient(90deg, #e0831f 0%, #fbbb01 100%);
+  background: #c39635;
+  background: linear-gradient(90deg, #c39635 0%, #ecac23 100%);
   transition: all 0.3s;
 }
 .button-master.principal-button:hover {
@@ -86,6 +86,12 @@ textarea.form-control {
   background: #2D2D2D;
   border-radius: 5px;
 }
+.menu-item-has-children .sub-menu .nav-link {
+  color: white !important;
+}
+.menu-item-has-children .sub-menu .nav-link:hover {
+  color: #C39635 !important;
+}
 .menu-item-has-children i {
   margin-left: 5px;
   transform: translateY(-2px);
@@ -124,6 +130,9 @@ textarea.form-control {
 .sticky-header .menu-item-has-children .sub-menu a {
   color: white !important;
 }
+.sticky-header .menu-item-has-children .sub-menu a:hover {
+  color: #C39635 !important;
+}
 
 .rgc-sub-heading-section {
   color: white;
@@ -148,17 +157,18 @@ textarea.form-control {
   font-family: "Nunito", sans-serif !important;
 }
 .rgc-sub-heading-section.opacity-layer:before {
-  background-color: rgba(251, 187, 1, 0.8) !important;
+  background: #c39635 !important;
+  background: linear-gradient(90deg, #c39635 0%, rgba(236, 172, 35, 0.7) 100%) !important;
 }
 
 @media (max-width: 480px) {
-  .rgc-sub-heading-section {
+  .rgc-sub-heading-section, .sub-heading-section {
     padding: 1em !important;
   }
-  .rgc-sub-heading-section .rgc-intro__left h2 {
+  .rgc-sub-heading-section .rgc-intro__left h2, .sub-heading-section .rgc-intro__left h2 {
     font-size: 1em !important;
   }
-  .rgc-sub-heading-section .rgc-intro__right h3 {
+  .rgc-sub-heading-section .rgc-intro__right h3, .sub-heading-section .rgc-intro__right h3 {
     font-size: 1.5em !important;
     margin-top: 2em;
   }
@@ -196,21 +206,21 @@ textarea.form-control {
 }
 .rgc-content-package__title {
   line-height: 1em;
-  color: #010077;
+  color: #082F75;
 }
 .rgc-content-package__city {
-  color: #E0831F;
+  color: #C39635;
 }
 .rgc-content-package__days {
   font-size: 1.2em;
 }
 .rgc-content-package__days-day {
-  color: #E0831F;
+  color: #C39635;
   display: inline-block;
   margin: 0.5em;
 }
 .rgc-content-package__days-night {
-  color: #010077;
+  color: #082F75;
   display: inline-block;
   margin: 0.5em;
 }
@@ -252,24 +262,24 @@ textarea.form-control {
   align-items: center;
 }
 .rgc-content-package__rating-number {
-  background-color: #E0831F;
+  background-color: #082F75;
   color: white;
   padding: 5px;
   border-radius: 3px;
   margin-right: 7px;
 }
 .rgc-content-package__rating-stars {
-  color: #E0831F;
+  color: #082F75;
 }
 .rgc-content-package__info__link {
   display: block;
   font-family: "Nunito", sans-serif;
   text-decoration: underline;
-  color: #E0831F;
+  color: #C39635;
   font-weight: 600;
 }
 .rgc-content-package__info__link:hover {
-  color: #c1711b;
+  color: #a7802d;
 }
 .rgc-content-package__gallery-item {
   width: 100%;
@@ -291,7 +301,7 @@ textarea.form-control {
 .rgc-box-offer {
   width: 100px;
   height: 100px;
-  background-color: #E0831F;
+  background-color: #082F75;
   position: absolute;
   left: -30px;
   top: -20px;
@@ -336,7 +346,7 @@ textarea.form-control {
   }
 }
 .slick-custom-rgc .slick-custom-arrow {
-  background-color: #E0831F;
+  background-color: #082F75;
   width: 50px;
   height: 50px;
   border: none;
@@ -385,12 +395,12 @@ textarea.form-control {
   margin-bottom: 1em;
 }
 .rgc-search-box .label-search {
-  color: #010077;
+  color: #C39635;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
 }
 .rgc-search-box .btn-search {
-  background-color: #010077;
+  background-color: #C39635;
   font-weight: bold;
   color: white;
 }
@@ -403,11 +413,11 @@ textarea.form-control {
   font-size: 2em;
 }
 .rgc-package-features__box i {
-  color: #010077;
+  color: #C39635;
 }
 
 .rgc-package-conditions__box {
-  background-color: #010077;
+  background-color: #C39635;
   color: white;
 }
 .rgc-package-conditions__box-title {
@@ -423,7 +433,7 @@ textarea.form-control {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  color: #010077;
+  color: #C39635;
 }
 .rgc-assesor__box i {
   font-size: 4em;
@@ -431,7 +441,7 @@ textarea.form-control {
 }
 .rgc-assesor__box a {
   font-size: 1em !important;
-  color: #010077;
+  color: #C39635;
   transition: all 0.3s;
   display: inline-block;
   font-family: "Nunito", sans-serif !important;
@@ -441,8 +451,8 @@ textarea.form-control {
   color: #2D2D2D;
 }
 .rgc-assesor div:nth-child(even) {
-  border-left: 2px solid #010077;
-  border-right: 2px solid #010077;
+  border-left: 2px solid #C39635;
+  border-right: 2px solid #C39635;
 }
 
 .single-tours .rgc-content-package__desc {
@@ -451,6 +461,50 @@ textarea.form-control {
   margin-bottom: 2em;
   border-bottom: 1px solid #ccc;
   font-size: 0.9em;
+}
+
+.footer-contact {
+  font-size: 12pt !important;
+}
+.footer-contact .pbx-info {
+  font-size: 0.8em;
+}
+.footer-contact .nav-item a {
+  font-size: 0.6em !important;
+  color: white;
+}
+.footer-contact .nav-item i {
+  margin-right: 10px;
+}
+.footer-contact .rnt-link {
+  color: #C39635 !important;
+  font-size: 1.5em !important;
+  text-decoration: underline;
+}
+.footer-contact .rnt-link:hover {
+  color: #a37d2c !important;
+}
+
+.rgc-widget-dollar {
+  position: fixed;
+  left: 0;
+  bottom: 2em;
+  background-color: #C39635;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 2;
+}
+.rgc-widget-dollar span, .rgc-widget-dollar p {
+  color: white;
+  display: block;
+}
+.rgc-widget-dollar p {
+  margin-bottom: 0;
+  color: #082F75;
+  font-weight: bold;
 }
 
 .top-footer .footer-pbx p {
@@ -466,57 +520,16 @@ textarea.form-control {
   transition: all 0.4s;
 }
 .top-footer .footer-legal a:hover {
-  color: #E0831F;
-}
-
-@media (max-width: 480px) {
-  .info-bottom-footer {
-    margin-top: 4;
-  }
-}
-.footer-contact {
-  font-size: 12pt !important;
-}
-.footer-contact .pbx-info {
-  font-size: 0.8em;
-}
-.footer-contact .nav-item a {
-  font-size: 0.6em !important;
-  color: white;
-}
-.footer-contact .nav-item i {
-  margin-right: 10px;
-}
-.footer-contact .rnt-link {
-  color: #E0831F !important;
-  font-size: 1.5em !important;
-  text-decoration: underline;
-}
-
-.rgc-widget-dollar {
-  position: fixed;
-  left: 0;
-  bottom: 2em;
-  background-color: #010077;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  z-index: 2;
-}
-.rgc-widget-dollar span, .rgc-widget-dollar p {
-  color: white;
-  display: block;
-}
-.rgc-widget-dollar p {
-  margin-bottom: 0;
-  color: #E0831F;
+  color: #C39635;
 }
 
 @media screen and (max-width: 480px) {
   .rgc-widget-dollar {
     display: none !important;
+  }
+
+  .info-bottom-footer {
+    margin-top: 2em;
   }
 }
 .embed-responsive .embed-responsive-item {
@@ -550,7 +563,7 @@ textarea.form-control {
 }
 .rgc-user-block i {
   font-size: 4em;
-  color: #010077;
+  color: #C39635;
 }
 .rgc-user-block p {
   font-size: 1.5em;
@@ -597,9 +610,9 @@ textarea.form-control {
   margin-bottom: 5px;
 }
 .rgc-custom-filter-form .btn-filter-submit {
-  background-color: #010077;
+  background-color: #C39635;
   color: white;
-  border: 1px solid #010077 !important;
+  border: 1px solid #C39635 !important;
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
   display: inline-block;
@@ -608,7 +621,7 @@ textarea.form-control {
   padding: 0 1em;
 }
 .rgc-custom-filter-form .btn-filter-submit:hover {
-  background-color: #010049;
+  background-color: #9f7a2b;
 }
 
 .page-template-paquetes-page .rgc-search-bar, .single-tours .rgc-search-bar, .search .rgc-search-bar, .blog.logged-in .rgc-search-bar, .tax-destinos .rgc-search-bar {
@@ -649,7 +662,13 @@ textarea.form-control {
   font-size: 0.8em;
   display: flex;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: #082F75;
+}
+.item-profile-user .nav-link {
+  color: white !important;
+}
+.item-profile-user:hover {
+  background: #05204f;
 }
 
 .btn-logout .nav-link {
@@ -671,7 +690,7 @@ textarea.form-control {
 
 .rgc-dashboard-sidebar {
   height: 93vh;
-  background: #00002b;
+  background: #082F75;
 }
 .rgc-dashboard-sidebar .nav-item {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);

@@ -24,17 +24,17 @@
     background-color: #F5F5F5
     &__title
         line-height: 1em
-        color: $primary-color
-    &__city
         color: $secondary-color
+    &__city
+        color: $primary-color
     &__days
         font-size: 1.2em
         &-day
-            color: $secondary-color
+            color: $primary-color
             display: inline-block
             margin: .5em
         &-night
-            color: $primary-color
+            color: $secondary-color
             display: inline-block
             margin: .5em
     &__date
@@ -80,10 +80,10 @@
             display: block
             font-family: $secondary-font
             text-decoration: underline
-            color: $secondary-color
+            color: $primary-color
             font-weight: 600
             &:hover
-                color: darken($secondary-color, 7)
+                color: darken($primary-color, 7)
     &__gallery
         &-item
             width: 100%

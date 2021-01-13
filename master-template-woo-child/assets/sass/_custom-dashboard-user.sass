@@ -3,7 +3,11 @@
     font-size: .8em
     display: flex
     align-items: center
-    background: rgba(#000, .5)
+    background: $secondary-color
+    .nav-link
+        color: white !important
+    &:hover
+        background: darken($secondary-color, 8)
 
 .btn-logout
     .nav-link
@@ -21,7 +25,7 @@
     height: 93vh
 .rgc-dashboard-sidebar
     height: 93vh
-    background: darken($primary-color, 15)
+    background: $secondary-color
     .nav-item
         border-bottom: 1px solid rgba(#fff, .1)
     .nav-link

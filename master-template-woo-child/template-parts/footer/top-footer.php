@@ -16,7 +16,7 @@ global $geniorama
 </div>
 
 
-<div class="top-footer bg-image" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/background-top-footer.png')">
+<div class="top-footer bg-image" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/background-top-footer.jpg')">
 	<div class="container">
 		<div class="footer-pbx text-center">
 			<p>PBX: 746 7296</p>

@@ -14,10 +14,10 @@ global $geniorama;
             <div class="position-relative content-box <?php echo add_class_subheader('alignment'); ?>">
                 <div class="row align-items-center mb-3">
                     <div class="col-12 col-md-5 text-right rgc-intro__left">
-                        <h2>ELIGE TU <span class="text-color-primary">PAQUETE</span></h2>
+                        <h2>ELIGE TU <span class="text-color-secondary">PAQUETE</span></h2>
                     </div>
                     <div class="col-12 col-md-7 text-left rgc-intro__right">
-                        <h3><span class="text-color-primary">Disfruta al máximo tu destino con</span> Royal Golden Club</h3>
+                        <h3><span class="text-color-secondary">Disfruta al máximo tu destino con</span> Royal Golden Club</h3>
                     </div>
                 </div>
 

@@ -9,9 +9,11 @@
         i
             margin-right: 10px
     .rnt-link
-        color: #E0831F !important
+        color: $primary-color !important
         font-size: 1.5em !important
         text-decoration: underline
+        &:hover
+            color: darken($primary-color, 8) !important
 .rgc-widget-dollar
     position: fixed
     left: 0
@@ -29,9 +31,27 @@
     p
         margin-bottom: 0
         color: $secondary-color
+        font-weight: bold
 
+.top-footer
+    .footer-pbx
+        p
+            font-family: $secondary-font !important
+            font-size: 2em
+    .footer-legal
+        p
+            font-size: 1em
+            margin-top: 2em
+        a
+            color: white
+            transition: all .4s
+            &:hover
+                color: $primary-color
+    
 @media screen and ( max-width: 480px )
     .rgc-widget-dollar
         display: none !important
+    .info-bottom-footer
+        margin-top: 2em
     
         

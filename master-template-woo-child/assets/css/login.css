@@ -3,16 +3,16 @@ body, html {
 }
 
 .bg-gradient-primary {
-  background: #fbbb01;
-  background: linear-gradient(270deg, #fbbb01 0%, #e0831f 100%);
+  background: #c39635;
+  background: linear-gradient(90deg, #c39635 0%, #ecac23 100%);
 }
 
 .text-color-primary {
-  color: #010077;
+  color: #C39635;
 }
 
 .text-color-secondary {
-  color: #E0831F;
+  color: #082F75;
 }
 
 .padding-section {
@@ -21,7 +21,7 @@ body, html {
 
 .rgc-box-title__divider {
   width: 50px;
-  border: 2px solid #E0831F;
+  border: 2px solid #082F75;
   border-radius: 50px;
 }
 
@@ -42,8 +42,8 @@ body, html {
   border-radius: 50px !important;
 }
 .button-master.principal-button {
-  background: #e0831f;
-  background: linear-gradient(90deg, #e0831f 0%, #fbbb01 100%);
+  background: #c39635;
+  background: linear-gradient(90deg, #c39635 0%, #ecac23 100%);
   transition: all 0.3s;
 }
 .button-master.principal-button:hover {
@@ -86,6 +86,12 @@ textarea.form-control {
   background: #2D2D2D;
   border-radius: 5px;
 }
+.menu-item-has-children .sub-menu .nav-link {
+  color: white !important;
+}
+.menu-item-has-children .sub-menu .nav-link:hover {
+  color: #C39635 !important;
+}
 .menu-item-has-children i {
   margin-left: 5px;
   transform: translateY(-2px);
@@ -124,13 +130,16 @@ textarea.form-control {
 .sticky-header .menu-item-has-children .sub-menu a {
   color: white !important;
 }
+.sticky-header .menu-item-has-children .sub-menu a:hover {
+  color: #C39635 !important;
+}
 
 .login {
   background-size: cover;
   background-position: top center;
 }
 .login h1 .rgc-login-title {
-  color: #010077;
+  color: #C39635;
   font-family: "Roboto", sans-serif;
 }
 .login #login {
@@ -140,20 +149,20 @@ textarea.form-control {
   text-align: center;
 }
 .login #nav a {
-  color: #E0831F;
+  color: #C39635;
   font-size: 1.5em;
   font-family: "Nunito", sans-serif;
 }
 .login #nav a:hover {
-  color: #bc6e1a;
+  color: #a37d2c;
   text-decoration: underline;
 }
 .login #backtoblog {
   text-align: center;
 }
 .login .button {
-  background: #fbbb01;
-  background: linear-gradient(270deg, #fbbb01 0%, #e0831f 100%);
+  background: #c39635;
+  background: linear-gradient(90deg, #c39635 0%, #ecac23 100%);
   border: none;
   border-radius: 50px;
   font-family: "Roboto", sans-serif;
@@ -162,7 +171,7 @@ textarea.form-control {
   width: 100%;
   padding: 0.5em !important;
   margin-top: 1em;
-  color: #010077;
+  color: white;
   font-weight: bold;
   letter-spacing: 1px;
 }
