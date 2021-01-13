@@ -134,12 +134,16 @@ textarea.form-control {
   color: #C39635 !important;
 }
 
+.box-menu-nav .principal-button .nav-link {
+  color: white !important;
+}
+
 .login {
   background-size: cover;
   background-position: top center;
 }
 .login h1 .rgc-login-title {
-  color: #C39635;
+  color: #082F75;
   font-family: "Roboto", sans-serif;
 }
 .login #login {

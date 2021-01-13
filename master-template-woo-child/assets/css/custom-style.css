@@ -134,6 +134,10 @@ textarea.form-control {
   color: #C39635 !important;
 }
 
+.box-menu-nav .principal-button .nav-link {
+  color: white !important;
+}
+
 .rgc-sub-heading-section {
   color: white;
 }
